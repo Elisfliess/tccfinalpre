@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Slabo+13px&display=swap');
+
+
+body{
+    margin: 8%;
+    background-color: rgb(0, 0, 0);
+    color: #f9f295;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box {
+    background: black;
+    margin: 0%;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .box_cabecalho {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15%;
+  }
+  
+  .box_cabecalho-titulo {
+    color: #f9f295;
+    font-family: 'Slabo 13px', serif;
+  }
+  
+.box_cabecalho-nav-ul {
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+  
+  .box_cabecalho-nav-ul-li a {
+    color: #f9f295;
+}
+  
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: justify;
+    color: #d4cd65;
+    font-family: 'Slabo 13px', serif;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.item-box-1{
+    flex: 1;
+    order: 1;
+}
+
+.item-box-2{
+    flex: 1;
+    order: 2;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.container-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 10px;
+}
+
+.item-galeria-1{
+    flex: 1;
+    order: 1;
+}
+
+.item-galeria-2{
+    flex: 1;
+    order: 2;
+}
+
+.item-galeria-3 {
+    flex: 1;
+    order: 3;
+}
+
+footer{
+    text-align: justify;
+    background-color: black;
+    margin: 0%;
+    opacity: 0.95;
+    width: 100%;
+    color:#f9f295
+}
+
+
+
+.footer{
+  
+    display: flex;
+    justify-content:left;
+    color:#f9f295
+}
+
+.ul_footer{
+    display: flex;
+    justify-content:left;
+}
+
+.insta{
+    width: 5%;
+}
+
+
+
+
+

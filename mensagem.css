@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    background-size: 100%;
+}
+
+main{
+    width: 940px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    height: 100%;
+    margin: 40px 0;
+
+}
+
+form label, form input{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a8a8a8;
+}
+
+form input{
+    color:black;
+    border: none;
+    border-radius: 2px;
+
+}
+
+
+textarea{
+    background-color: #e4e4e4;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.Enviar{
+    color: black;
+}
+
+ .Enviar:hover{
+    background-color: #c5c4c4;
+    transform: scale(1.2);
+ }
+
+ .map{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+ .map-responsive{
+    overflow:hidden;
+    padding-bottom: 40%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height: 50px;
+    width: 30px;
+    position:absolute;
+}
+
+@media(max-width:768px) {     
+    .col {         
+        width: 100%;     
+    } 
+} 
+
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #dfdfdf;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    color: #dfdfdf;
+}
+
+thead{
+    border: 1px solid #000000;
+    width: 120px;
+}
+
+tbody, td, th{
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+th{
+    width: 120px;
+}
+
+footer{
+    text-align: justify;
+    background-color: black;
+    margin: 0%;
+    opacity: 0.95;
+    width: 100%;
+    color:#f9f295
+}
+
+
+
+.footer{
+  
+    display: flex;
+    justify-content:left;
+    color:#f9f295
+}
+
+.ul_footer{
+    display: flex;
+    justify-content:left;
+}
+
+.insta{
+    width: 5%;
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Slabo+13px&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+    background: linear-gradient(#090a11, black );
+}
+
+
+
+.box{
+    background: black;
+    margin: 0%;
+    opacity:0.95;
+    position: fixed;
+    width: 100%;
+
+}
+.box_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15% 0 15%;    
+}
+
+.box_cabecalho-titulo{
+    color:#f9f295;
+}
+
+
+.box_cabecalho-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cabecalho-nav-ul-li{
+    padding: 10px;
+    color:#f9f295;
+}
+
+section.img{
+    width: 100%;
+}
+
+.nav-link{
+    color:#f9f295;
+    font-size: 20px;
+}
+
+.paragrafo-img{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.paragrafo{
+
+    align-self: center;
+    color:#ffffff;
+    font-size: 20px;
+    font-family: 'Slabo 13px', serif;
+    margin-left: 30px;
+    
+
+}
+
+.circulo{
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    margin: 0 10% 0  10%;
+}
+
+.img-container {
+    width: 100%;
+    height: 500px;
+  }
+  .img-c {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+.container_img{
+   
+    width: 50%;
+
+
+}
+
+.container_titulo{
+    text-align: center;
+    color:#f9f295;
+    font-family: 'Slabo 13px', serif;
+    
+
+
+
+
+}
+
+.container_p{
+    text-align: justify;
+    margin: 40px;
+    color: white;
+    font-family: 'Slabo 13px', serif;
+    font-size: 20px;
+}
+
+.container_2{
+    display: flex;
+    margin: 0 10% 0  10%;
+}
+
+.container_2_img{
+    width: 40%;
+}
+
+.container_2_titulo{
+    text-align: center;
+    color: red;
+    font-family: 'Slabo 13px', serif;
+    
+
+}
+
+.container_2_p{
+    
+    text-align: justify;
+    margin: 40px;
+    color: white;
+    font-family: 'Slabo 13px', serif;
+    font-size: 20px;
+}
+
+footer{
+    text-align: justify;
+    background-color: black;
+    margin: 0%;
+    opacity: 0.95;
+    width: 100%;
+    color:#f9f295
+}
+
+
+
+.footer{
+  
+    display: flex;
+    justify-content:left;
+    color:#f9f295
+}
+
+.ul_footer{
+    display: flex;
+    justify-content:left;
+}
+
+.insta{
+    width: 5%;
+}
+
+
+
+@media (max-width:768px) {
+
+    .selection, aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    
+    
+    
+
+}

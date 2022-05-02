@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Slabo+13px&display=swap');
+
+
+body{
+   
+    margin: 0;
+    background: linear-gradient(#090a11, black );
+    
+    
+}
+
+.box{
+    background: black;
+    margin: 0%;
+    opacity: 0.95;
+    width: 100%;
+    height: 10vh;
+    font-size: 20px;
+
+}
+
+.box_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15% 0 15px;
+}
+
+.box_cabecalho-titulo{
+    color:#f9f295;
+    margin: 0;
+    font-family: 'Slabo 13px', serif;
+}
+
+.box_cabecalho-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cabecalho-nav-ul-li{
+    padding: 10px;
+    color:#f9f295;
+}
+h1{
+    color: #f9f295;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Slabo 13px', serif;
+}
+
+h4{
+    color:#f9f295;
+    font-family: 'Slabo 13px', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin: 8px;
+}
+
+img{
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    margin: 8px;
+    
+    
+}
+
+
+.texto{
+    display: flex;
+    flex-wrap:wrap;
+ 
+    font-family: 'Slabo 13px', serif;
+    margin: 0 10% 0  10%;
+  justify-content: center;
+
+
+}
+.texto_titulo{
+    text-align: center;
+    font-family: 'Slabo 13px', serif;
+    justify-content: center;
+}
+
+.texto_p{
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Slabo 13px', serif;
+}
+
+
+h1{
+    color:#f9f295;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Slabo 13px', serif;
+    
+}
+
+.imagens{
+    border-radius: 50%;
+    
+}
+
+.paragrafo{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Slabo 13px', serif;
+    margin: 0 10% 0  10%;
+    font-size: 20px;
+}
+
+h2{
+    color:#f9f295;
+    text-align: center;
+    font-family: 'Slabo 13px', serif;
+}
+
+.container {
+    
+    display: flex;
+    margin: 0 10%;
+  }
+  
+.img-container {
+    background-color: #090a11;
+    width: 100%;
+  
+    /* diminuir imagem */
+    height: 500px;
+  }
+  
+.img-c {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.container_img {
+  
+    width: 50%;
+  }
+
+  footer{
+    text-align: justify;
+    background-color: black;
+    margin: 0%;
+    opacity: 0.95;
+    width: 100%;
+    color:#f9f295
+}
+
+
+
+.footer{
+  
+    display: flex;
+    justify-content:left;
+    color:#f9f295
+}
+
+.ul_footer{
+    display: flex;
+    justify-content:left;
+}
+
+.insta{
+    width: 5%;
+}
